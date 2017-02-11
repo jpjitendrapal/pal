@@ -1,6 +1,7 @@
 body{
     background-color: white;
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .hidden{
     display: none;
@@ -58,15 +59,11 @@ ul.nav-list{
     background-color: black;
     color: white;
 }
-.left-section{
-    width: 20%;
-    display: inline-block;
-}
-.right-section{
-    width: 78%;
-    display: inline-block;
+.content{
+    padding: 20px 30px 30px 30px;
 }
 .jp-img{
-    /*float: left;*/
+    float: left;
     width: 150px;
+    padding: 30px 30px 30px 0;
 }
