@@ -1,0 +1,72 @@
+body{
+    background-color: white;
+    font-size: 20px;
+}
+.hidden{
+    display: none;
+}
+.pad-5{
+    padding: 5px;
+}
+.pad-10{
+    padding: 10px;
+}
+header{
+    text-align: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    top:0;
+    background-color: black;
+    color: white;
+}
+header .name{
+    margin: 12px;
+}
+.main-container{
+    position: relative;
+    width: 100%;
+    top: 35px;
+}
+.left-nav{
+    position: fixed;
+    width: 17%;
+    top: 70px;
+}
+#right-ct{
+    position: relative;
+    left: 17.1%;
+    width: 80%;
+    min-height: 100vh;
+    border-left: 1px solid black;
+    padding-top: 15px;
+}
+ul.nav-list{
+    list-style-type: none;
+    padding: 0;
+}
+.nav-list li{
+    padding: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-bottom: none;
+}
+.nav-list li:last-child{
+    border-bottom: 1px solid black;
+}
+.nav-list li.selected{
+    background-color: black;
+    color: white;
+}
+.left-section{
+    width: 20%;
+    display: inline-block;
+}
+.right-section{
+    width: 78%;
+    display: inline-block;
+}
+.jp-img{
+    /*float: left;*/
+    width: 150px;
+}
