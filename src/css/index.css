@@ -67,3 +67,22 @@ ul.nav-list{
     width: 150px;
     padding: 30px 30px 30px 0;
 }
+.org-name{
+    cursor: pointer;
+}
+.org-name span{
+    font-weight: 500;
+    font-size: 15px;
+}
+/*.org-name::before{
+    border: 1px solid black;
+    border-radius: 50%;
+}*/
+.org-name.close::before{
+    content: " + ";
+    font-size: 25px;
+}
+.org-name.open::before{
+    content: " -  ";
+    font-size: 25px;
+}
