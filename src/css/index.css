@@ -86,3 +86,26 @@ ul.nav-list{
     content: " -  ";
     font-size: 25px;
 }
+.left-nav-mobile-ghost{
+    display: none;
+}
+
+/*for mobile*/
+
+@media screen and (max-width: 700px){
+    .left-nav{
+        display: none;
+    }
+    #right-ct{
+        padding-top: 0;
+        width: 100%;
+        left:0;
+        border: none;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .mobile-show{
+        display: block;
+    }
+}
