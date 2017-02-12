@@ -14,7 +14,7 @@ body{
 }
 header{
     text-align: center;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     z-index: 10;
     top:0;
@@ -22,12 +22,13 @@ header{
     color: white;
 }
 header .name{
-    margin: 12px;
+    margin: 12px 0;
 }
 .main-container{
     position: relative;
     width: 100%;
     top: 35px;
+    overflow-x: hidden;
 }
 .left-nav{
     position: fixed;
