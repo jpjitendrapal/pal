@@ -109,4 +109,8 @@ ul.nav-list{
     .mobile-show{
         display: block;
     }
+    .content{
+        padding: 20px 7px 10px 7px;
+        word-break: break-all;
+    }
 }
