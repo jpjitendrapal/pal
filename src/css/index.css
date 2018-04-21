@@ -83,10 +83,14 @@ ul.nav-list{
 .org-name.close::before{
     content: " + ";
     font-size: 25px;
+    width: 25px;
+    display: inline-block;
 }
 .org-name.open::before{
-    content: " -  ";
+    content: " - ";
     font-size: 25px;
+    width: 25px;
+    display: inline-block;
 }
 .left-nav-mobile-ghost{
     display: none;
