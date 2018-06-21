@@ -26,6 +26,6 @@
         $(".dynamic-exp").text(expMsg);
     }
 
-    updateExp();
+    //updateExp();
     
 })();
