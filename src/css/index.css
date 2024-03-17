@@ -1,121 +1,125 @@
-body{
-    background-color: white;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  --primary-color: cadetblue;
 }
-.hidden{
-    display: none;
+body {
+  background-color: white;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.pad-5{
-    padding: 5px;
+.hidden {
+  display: none;
 }
-.pad-10{
-    padding: 10px;
+.pad-5 {
+  padding: 5px;
 }
-header{
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-    top:0;
-    left:0;
-    background-color: black;
-    color: white;
+.pad-10 {
+  padding: 10px;
 }
-header .name{
-    margin: 12px 0;
+header {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  color: white;
 }
-.main-container{
-    position: relative;
-    width: 100%;
-    top: 35px;
-    overflow-x: hidden;
+header .name {
+  margin: 12px 0;
 }
-.left-nav{
-    position: fixed;
-    width: 17%;
-    top: 70px;
+.main-container {
+  position: relative;
+  width: 100%;
+  top: 35px;
+  overflow-x: hidden;
 }
-#right-ct{
-    position: relative;
-    left: 17.1%;
-    width: 80%;
-    min-height: 100vh;
-    border-left: 1px solid black;
-    padding-top: 15px;
+.left-nav {
+  position: fixed;
+  width: 17%;
+  top: 70px;
 }
-ul.nav-list{
-    list-style-type: none;
-    padding: 0;
+#right-ct {
+  position: relative;
+  left: 17.1%;
+  width: 80%;
+  min-height: 100vh;
+  border-left: 1px solid var(--primary-color);
+  padding-top: 15px;
 }
-.nav-list li{
-    padding: 4px;
-    border: 1px solid black;
-    cursor: pointer;
-    border-bottom: none;
+ul.nav-list {
+  list-style-type: none;
+  padding: 0;
 }
-.nav-list li:last-child{
-    border-bottom: 1px solid black;
+.nav-list li {
+  padding: 10px 5px;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  border-bottom: none;
+  border-radius: 10px 0 0 10px;
 }
-.nav-list li.selected{
-    background-color: black;
-    color: white;
+.nav-list li:last-child {
+  border-bottom: 1px solid var(--primary-color);
 }
-.content{
-    padding: 20px 30px 30px 30px;
+.nav-list li.selected {
+  background-color: var(--primary-color);
+  color: white;
 }
-.jp-img{
-    float: left;
-    width: 150px;
-    padding: 30px 30px 30px 0;
+.content {
+  padding: 20px 30px 30px 30px;
 }
-.org-name{
-    cursor: pointer;
+.jp-img {
+  float: left;
+  width: 150px;
+  padding: 30px 30px 30px 0;
 }
-.org-name span{
-    font-weight: 500;
-    font-size: 15px;
+.org-name {
+  cursor: pointer;
+}
+.org-name span {
+  font-weight: 500;
+  font-size: 15px;
 }
 /*.org-name::before{
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
     border-radius: 50%;
 }*/
-.org-name.close::before{
-    content: " + ";
-    font-size: 25px;
-    width: 25px;
-    display: inline-block;
+.org-name.close::before {
+  content: " + ";
+  font-size: 25px;
+  width: 25px;
+  display: inline-block;
 }
-.org-name.open::before{
-    content: " - ";
-    font-size: 25px;
-    width: 25px;
-    display: inline-block;
+.org-name.open::before {
+  content: " - ";
+  font-size: 25px;
+  width: 25px;
+  display: inline-block;
 }
-.left-nav-mobile-ghost{
-    display: none;
+.left-nav-mobile-ghost {
+  display: none;
 }
 
 /*for mobile*/
 
-@media screen and (max-width: 700px){
-    .left-nav{
-        display: none;
-    }
-    #right-ct{
-        padding-top: 0;
-        width: 100%;
-        left:0;
-        border: none;
-    }
-    .mobile-hide{
-        display: none;
-    }
-    .mobile-show{
-        display: block;
-    }
-    .content{
-        padding: 20px 7px 10px 7px;
-        word-break: break-all;
-    }
+@media screen and (max-width: 700px) {
+  .left-nav {
+    display: none;
+  }
+  #right-ct {
+    padding-top: 0;
+    width: 100%;
+    left: 0;
+    border: none;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .mobile-show {
+    display: block;
+  }
+  .content {
+    padding: 20px 7px 10px 7px;
+    word-break: break-all;
+  }
 }
