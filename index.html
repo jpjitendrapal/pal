@@ -17,23 +17,29 @@
     <div class="main-container">
       <div class="left-nav">
         <ul class="nav-list">
-          <li class="selected" data-id="list-1">
+          <li class="jump-link selected" data-id="list-1">
+            <!-- <a href="#list-1"> -->
             About <span class="mobile-hide">Me</span>
+            <!-- </a> -->
           </li>
-          <li data-id="list-2">
+          <li class="jump-link" data-id="list-2">
+            <!-- <a href="#list-1"> -->
             Tech<span class="mobile-hide">nologies</span>
+            <!-- </a> -->
           </li>
-          <li data-id="list-3">
+          <li class="jump-link" data-id="list-3">
+            <!-- <a href="#list-1"> -->
             Prof<span class="mobile-hide">essional</span> Exp<span
               class="mobile-hide"
               >erience</span
             >
+            <!-- </a> -->
           </li>
         </ul>
       </div>
       <div id="right-ct">
         <div id="list-1" class="content mobile-show">
-          <img class="jp-img" src="./src/img/me.jpeg" />
+          <img class="jp-img" src="./src/img/me.jpeg" alt="my pic" />
           <section class="content-section">
             <p class="">
               Currently working as Senior Engineer at
@@ -169,7 +175,7 @@
               >
             </div>
             <!--                             <div>Email: buildweb.go@gmail.com</div> -->
-            <div>
+            <div id="linkedin-url">
               Linkedin:
               <a
                 href="https://www.linkedin.com/in/jpjitendrapal/"
@@ -182,10 +188,16 @@
 
           <!--</section>-->
         </div>
-        <div id="list-2" class="content hidden mobile-show">
-          <h4>Technologies Used:</h4>
+        <div id="list-2" class="content mobile-show">
+          <h4>Expertise and Technologies Used:</h4>
           <ul>
-            <li>Expert: <strong>JavaScript</strong>, HTML, CSS</li>
+            <li>Team Mentoring</li>
+            <li>Code Reviews</li>
+            <li>System Designing and Architecture</li>
+            <li>
+              Expert in <strong>JavaScript, React JS</strong>, Next JS, HTML,
+              CSS
+            </li>
             <li>Programming Languages: Go, C, C#, SQL</li>
             <li>
               Libraries: <strong>React</strong>, jQuery, Bootstrap, SASS/SCSS,
@@ -197,7 +209,7 @@
             <li>Operating System: Mac OS, Windows, Ubuntu</li>
           </ul>
         </div>
-        <div id="list-3" class="content hidden mobile-show">
+        <div id="list-3" class="content mobile-show">
           <h3>Professional Experience</h3>
           <!--Fifth Organization-->
           <div class="SHIELD organization">
@@ -245,10 +257,10 @@
           </div>
           <!--Fourth Organization-->
           <div class="Unacademy organization">
-            <h4 class="org-name close">
+            <h4 class="org-name">
               Unacademy <span>- March 2022 to May 2023</span>
             </h4>
-            <ul class="projects hidden">
+            <ul class="projects">
               <li class="project">
                 <h5>Unacademy - Learner Experience (LEX) Web and mobile web</h5>
                 <p>
