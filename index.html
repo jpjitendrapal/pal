@@ -1,430 +1,219 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link type="text/css" rel="stylesheet" href="./src/css/index.css" />
-    <title>Jitendra Pal</title>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-      integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
-      crossorigin="anonymous"
-    ></script>
+    <title>Jitendra Pal | Product Leader & Frontend Architect</title>
+    <meta name="description" content="Portfolio of Jitendra Pal, a Product Leader with 12+ years of experience specializing in Frontend Architecture, React, and Micro-Frontends." />
+    <link type="text/css" rel="stylesheet" href="./src/css/index.css" />
   </head>
   <body>
     <header>
       <h2 class="name">Jitendra Pal</h2>
     </header>
     <div class="main-container">
-      <div class="left-nav">
+      <aside class="left-nav">
         <ul class="nav-list">
-          <li class="jump-link selected" data-id="list-1">
-            About <span class="mobile-hide">Me</span>
-          </li>
-          <li class="jump-link" data-id="list-2">
-            Tech<span class="mobile-hide">nologies</span>
-          </li>
-          <li class="jump-link" data-id="list-3">
-            Prof<span class="mobile-hide">essional</span> Exp<span
-              class="mobile-hide"
-              >erience</span
-            >
-          </li>
-          <li class="jump-link" data-id="list-4">More..</li>
+          <li class="jump-link selected" data-id="about">About</li>
+          <li class="jump-link" data-id="tech">Technologies</li>
+          <li class="jump-link" data-id="experience">Experience</li>
+          <li class="jump-link" data-id="awards">Awards</li>
         </ul>
-      </div>
-      <div id="right-ct">
-        <div id="list-1" class="content mobile-show">
-          <img class="jp-img" src="./src/img/me.jpeg" alt="jitendra" />
-          <section class="content-section">
-            <p class="">
-              With over 12 years of extensive experience in product development,
-              I currently lead the SHIELD dashboard team in Bangalore. My
-              expertise encompasses both frontend and backend projects,
-              specializing in JavaScript, Micro-Frontend, React, Next.js, HTML,
-              and CSS. I excel in product release management, continuous
-              improvement, and feature delivery.
-            </p>
+      </aside>
+      <main id="right-ct">
+        <section id="about" class="content">
+          <div class="about-top">
+            <div class="about-text">
+              <h3>About Me</h3>
+              <p>
+                With over <span class="dynamic-exp-years">13</span>+ years of experience in product development and engineering leadership, I specialize in architecting high-scale web platforms and leading cross-functional teams to deliver exceptional user experiences. Currently leading the Dashboard Engineering team at <b>SHIELD</b>, I drive the architectural vision for fraud prevention interfaces, including the transition to <b>Micro-Frontend</b> architectures and enterprise-grade standards.
+              </p>
+              <p>
+                My approach combines deep technical expertise in the React and Next.js ecosystems with a strategic focus on product delivery and operational excellence. I am dedicated to fostering engineering cultures centered on continuous improvement, mentorship, and high-impact technical leadership. I bridge the gap between complex engineering challenges and seamless, scalable product solutions.
+              </p>
+            </div>
+            <img class="jp-img" src="./src/img/me.jpeg" alt="Jitendra Pal" />
+          </div>
+
+          <div class="about-details">
+            <h4>Academic Detail</h4>
             <p>
-              Additionally, I have a robust background in team mentoring and
-              guidance, conducting code reviews, and providing technical
-              leadership.
+              <strong>M.Tech</strong> from <a href="https://www.iiita.ac.in/" target="_blank">IIITA</a> (2012)<br>
+              <strong>B.Tech</strong> from <a href="https://www.jssaten.ac.in/" target="_blank">JSSATE Noida</a> (2010)
             </p>
-            <br />
-            <h4>Academic Detail:</h4>
-            <p>
-              Completed Post Graduation (M.Tech) from
-              <a href="https://www.iiita.ac.in/" target="_blank">IIITA</a>
-              (Indian Institute of Information Technology Allahabad) in 2012.
-            </p>
-            <p>
-              Completed graduation (B.Tech) from
-              <a href="https://www.jssaten.ac.in/" target="_blank"
-                >JSS Academy of Technical Education Noida</a
-              >
-              in 2010
-            </p>
-            <h4>Expertise:</h4>
-            <ul>
-              <li>Team Mentoring and Guiding</li>
-              <li>Feature development planning and process</li>
-              <li>Code Reviews</li>
-              <li>System Designing</li>
-              <li>React JS</li>
-              <li>Webpack</li>
-              <li>Micro-Frontend</li>
-              <li>Java Script</li>
-              <li>Next.JS</li>
-            </ul>
-            <h4>Personal Detail:</h4>
+
+            <h4>Personal Details</h4>
             <ul>
               <li>Nationality: Indian</li>
               <li>Languages: English & Hindi</li>
-              <li>Experience: <span class="dynamic-exp">6 Years</span></li>
-            </ul>
-          </section>
-        </div>
-        <div id="list-2" class="content mobile-show">
-          <h4>Expertise:</h4>
-          <ul>
-            <li>Release Cycle</li>
-            <li>Team Mentoring</li>
-            <li>CI / CD Pipeline github, bitbucket</li>
-            <li>Feature development planning and process</li>
-            <li>Code Review</li>
-            <li>System Designing and Architecture</li>
-            <li>React JS</li>
-            <li>Java Script</li>
-            <li>Next.JS</li>
-            <li>MySQL</li>
-            <li>
-              Proficient in utilizing AI language models such as ChatGPT to get
-              the analysis and code faster as per the requirements
-            </li>
-          </ul>
-          <h4>Technologies Used:</h4>
-          <ul>
-            <li>
-              Expert in <strong>JavaScript, React JS</strong>, Next JS, HTML,
-              CSS
-            </li>
-            <li>Programming Languages: Go, C, C#, SQL</li>
-            <li>
-              Libraries: <strong>React</strong>, jQuery, Bootstrap, SASS/SCSS,
-              FCM (Firebase Cloud Messaging), SW, MUI
-            </li>
-            <li>Frameworks: <strong>Next.js</strong>, AngularJS</li>
-            <li>Project setup: Node, Webpack, NPM, Grunt, Gulp, Browserify</li>
-            <li>Versioning System: GIT, SVN, TFS</li>
-            <li>Operating System: Mac OS, Windows, Ubuntu</li>
-          </ul>
-        </div>
-        <div id="list-3" class="content mobile-show">
-          <h3>Professional Experience</h3>
-          <!--Fifth Organization-->
-          <div class="SHIELD organization">
-            <h4 class="org-name open">
-              SHIELD <span>- May 2023 to Present</span>
-            </h4>
-            <ul class="projects">
-              <li class="project">
-                <h5>
-                  SHIELD: Device-First Fraud Prevention & Risk Intelligence
-                </h5>
-                <p>
-                  Site:
-                  <a href="https://www.shield.com/" target="_blank"
-                    >shield.com</a
-                  >
-                  <br />Skills Used: React, JavaScript, HTML, MUI, Go, Casandra,
-                  Athena, SQL, MongoDB <br />
-                  Taking care the full responsibility of SHIELD dashboard
-                </p>
-                <p>Major projects include:</p>
-                <ol>
-                  <li>
-                    Setting up Micro Frontend for the dashboard using webpack
-                    module federation, and releasing new dashboard in parallel.
-                  </li>
-                  <li>
-                    Setting up story book for the common components library and
-                    hosting in the dev environemnt
-                  </li>
-                  <li>
-                    Revamp Session Detail Page - Completely new design to build
-                    with code refactoring and making code common so that same
-                    pages can use common components
-                  </li>
-                  <li>
-                    Revamp iGuide - iGuide experience was very poor before now
-                    it is improved
-                  </li>
-                  <li>
-                    Timezone across dashboard for merchants in different regions
-                  </li>
-                  <li>
-                    Performance improvements across all the pages in the website
-                  </li>
-                  <li>
-                    Automating changelogs for all the platforms to update in the
-                    iGuide
-                  </li>
-                </ol>
-              </li>
+              <li>Experience: <span class="dynamic-exp">Loading...</span></li>
             </ul>
           </div>
-          <!--Fourth Organization-->
-          <div class="Unacademy organization">
-            <h4 class="org-name">
-              Unacademy <span>- March 2022 to May 2023</span>
-            </h4>
-            <ul class="projects">
-              <li class="project">
-                <h5>Unacademy - Learner Experience (LEX) Web and mobile web</h5>
-                <p>
-                  Site:
-                  <a href="https://www.unacademy.com/" target="_blank"
-                    >Unacademy.com</a
-                  >
-                  <br />Skills Used: JavaScript, HTML, MUI, React, NextJS
-                  <br />Worked in all the Front-End parts developed for learner
-                  experience.
-                </p>
-                <p>Major projects include:</p>
-                <ol>
-                  <li>Planner - Daily study plan of a learner</li>
-                  <li>Notes - Epub or pdf viewer</li>
-                  <li>Educator profile page</li>
-                  <li>
-                    Performance improvements across all the pages in the website
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </div>
-          <!--Third Organization-->
-          <div class="Snapdeal organization">
-            <h4 class="org-name close">
-              Snapdeal <span>- October 2016 to March 2022</span>
-            </h4>
-            <ul class="projects hidden">
-              <li class="project">
-                <h5>Snapdeal Web</h5>
-                <p>
-                  Site:
-                  <a href="https://www.snapdeal.com/" target="_blank"
-                    >Snapdeal.com</a
-                  >
-                  <br />Skills Used: JavaScript, jQuery, HTML, Bootstrap, SAAS,
-                  React <br />Worked in all the Front-End parts developed for
-                  Snapdeal.
-                </p>
-                <p>Major projects include:</p>
-                <ol>
-                  <li>
-                    FCM (firebase cloud messaging) for notification in both web
-                    and msite
-                  </li>
-                  <li>Ads integration with products in search</li>
-                </ol>
-              </li>
-              <li class="project">
-                <h5>Snapdeal Mobile Site</h5>
-                <p>
-                  Site:
-                  <a href="https://www.m.snapdeal.com/" target="_blank"
-                    >m.snapdeal.com</a
-                  >
-                  <br />Skills Used: JavaScript, HTML, Bootstrap, SAAS, React,
-                  jQuery <br />Worked in all the Front-End parts developed for
-                  Snapdeal mobile site.
-                </p>
-                <p>Major projects include:</p>
-                <ol>
-                  <li>Checkout revamp</li>
-                  <li>Infinite home feeds</li>
-                  <li>Return flow image upload and questionnaires</li>
-                  <li>
-                    FCM (firebase cloud messaging) for notification in both web
-                    and msite
-                  </li>
-                  <li>Ads integration with products on search pages</li>
-                  <li>Web view inside Android and iOs App</li>
-                  <li>Vernacular in mobile site</li>
-                </ol>
-                <p>Major growth projects:</p>
-                <ol>
-                  <li>Game Zone</li>
-                  <li>
-                    SEVAC (Snapdeal E-commerce Voice Assistant for Customer)
-                  </li>
-                  <li>Urgency Timer</li>
-                  <li>
-                    Other growth experiments such as scratch card auto promo,
-                    share & earn, free products, etc.
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </div>
-          <!--Second Organization-->
-          <div class="fab organization">
-            <h4 class="org-name close">
-              Fab <span>- August 2015 to October 2016</span>
-            </h4>
-            <ul class="projects hidden">
-              <li class="project">
-                <h5>Fab.com</h5>
-                <p>
-                  Site: <a href="https://fab.com/" target="_blank">fab.com</a>
-                  <br />Skills Used: JavaScript , jQuery, HTML, Bootstrap, SAAS
-                  <br />Worked in all the Fronnt-End parts developed for Fab.com
-                  e-commerce portal.
-                </p>
-              </li>
-              <li class="project">
-                <h5>PCH Commerceflo B2B Portal</h5>
-                <p>
-                  Site:
-                  <a href="http://commerceflo.com/" target="_blank"
-                    >commerceflo.com</a
-                  >
-                  <br />Skills used: AngularJS , JavaScript, jQuery, HTML, CSS3,
-                  Bootstrap, SAAS <br />Created this site from scratch for B2B.
-                  This site is created to connect brands with retailers and it
-                  has many to many relationship with brands and retailers.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <!--First Organization-->
-          <div class="maq-software organization">
-            <h4 class="org-name close">
-              MAQ Software <span>- July 2012 to August 2015</span>
-            </h4>
-            <ul class="projects hidden">
-              <li class="project">
-                <h5>Microsoft Partner Network</h5>
-                <p>
-                  Client: Microsoft
-                  <br />Site:
-                  <a href="http://mspartner.microsoft.com/" target="_blank"
-                    >mspartner.microsoft.com</a
-                  >
-                  <br />Team size: 10 <br />Role played: Developer, Team trainer
-                  <br />Skills used: C# , WCF, JavaScript , TypeScript, jQuery ,
-                  HTML , CSS, TSQL , XML, SQL Server Replication <br />Tools
-                  used: Visual Studio 2012 Ultimate, IIS7, SharePoint, SSMS 2012
-                  <br />Description: The project was undertaken to develop and
-                  implement a Web Service API using WCF to return Partners data.
-                  The most challenging task in this web service was handshaking
-                  of Front Edge pages with this API in which we have used
-                  encryption.
-                </p>
-              </li>
-              <li class="project">
-                <h5>Microsoft Customer Insight</h5>
-                <p>
-                  Client: Microsoft
-                  <br />Site: GMOBI <br />Team size: 18 <br />Role played:
-                  Frontend Developer with reporting stored procedure
-                  <br />Skills used: JavaScript , jQuery , HTML, CSS, SQL , MAQ
-                  charting library <br />Tools used: Visual Studio 2013, SQL
-                  Server, SharePoint
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div id="list-4" class="content mobile-show">
-          <h4>Awards and Achievement:</h4>
-          <ul>
-            <li>
-              Won SNAPATHON 2020 (<a
-                href="https://www.linkedin.com/posts/jpjitendrapal_snap-a-thon-2020-snapdeal-activity-6627206009645563904-r5Vz"
-                target="_blank"
-                >Hackathone of Snapdeal 2020</a
-              >)
-            </li>
-            <li>Got Rockstar award at Snapdeal in May 2018</li>
-            <li>Got machate raho award at Snapdeal in Q1 2018</li>
-            <li>
-              Got spot award and appreciation mail in MAQ Software in Q2 2015
-              for structuring and designing project from scratch
-            </li>
-            <li>
-              Got spot award in MAQ Software in Q3 2014 for structuring and
-              designing project from scratch
-            </li>
-            <li>
-              Got spot award in MAQ Software in Q2 2014 for creating automated
-              tools
-            </li>
-            <li>
-              Got MCSA (Microsoft Certified Solution Associate) certificate on
-              11 July, 2013
-            </li>
-            <li>
-              Certified “Developing Windows Azure and Web Services” 70-487 exam,
-              got score 962/1000
-            </li>
-            <li>Ranked Second in my department at college in M.Tech</li>
-            <li>
-              Awarded full scholarship for Master's studies by MHRD, Govt. of
-              India
-            </li>
-            <li>
-              Secured 97.11 percentile in prestigious all India level GATE (CS &
-              IT) exam in 2010
-            </li>
-            <li>
-              Secured 97.74 percentile in prestigious all India level GATE (CS &
-              IT) exam in 2012
-            </li>
-            <li>
-              Awarded Second Prize in robotics competition named “Lumos” in IIT
-              Kanpur
-            </li>
-            <li>
-              Awarded First Prize in robotics competition named “Robo Soccer” at
-              in IIITA in 2011 and 2012
-            </li>
-          </ul>
-          <h4>Publications:</h4>
-          <ul>
-            <li>
-              <a
-                href="https://link.springer.com/chapter/10.1007%2F978-3-642-32129-0_46"
-                target="_blank"
-                >SMART- A Social Mobile Advanced Robot Test Bed for Humanoid
-                Robot Researchers</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://link.springer.com/chapter/10.1007%2F978-3-642-32129-0_36"
-                target="_blank"
-                >A Cloud Based Robot Localization Technique</a
-              >
-            </li>
-          </ul>
-          <h4>More:</h4>
-          <div>
-            Blog:
-            <a href="http://techprogrammings.blogspot.in/" target="_blank"
-              >http://techprogrammings.blogspot.in/</a
-            >
-          </div>
-          <!--                             <div>Email: buildweb.go@gmail.com</div> -->
-          <div id="linkedin-url">
-            Linkedin:
-            <a href="https://www.linkedin.com/in/jpjitendrapal/" target="_blank"
-              >https://www.linkedin.com/in/jpjitendrapal/</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
+        </section>
 
+        <section id="tech" class="content">
+          <h3>Expertise & Technologies</h3>
+          <div class="expertise-grid">
+            <div class="expertise-item">
+              <h4>Core Expertise</h4>
+              <ul>
+                <li>Team Mentoring & Leadership</li>
+                <li>System Design & Architecture</li>
+                <li>Micro-Frontend Architecture</li>
+                <li>CI/CD Pipelines (GitHub, Bitbucket)</li>
+                <li>Release Cycle Management</li>
+              </ul>
+            </div>
+            <div class="expertise-item">
+              <h4>Technologies</h4>
+              <ul>
+                <li><strong>Languages:</strong> JavaScript, Go, C, C#, SQL</li>
+                <li><strong>Frameworks:</strong> React, Next.js, AngularJS</li>
+                <li><strong>Libraries:</strong> jQuery, Bootstrap, SASS/SCSS, MUI</li>
+                <li><strong>Tools:</strong> Webpack, Node, NPM, Git</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="content">
+          <h3>Professional Experience</h3>
+          
+          <div class="organization">
+            <div class="org-header">
+              <div class="org-title">
+                <span class="org-name-text">SHIELD</span>
+                <span class="org-date">May 2023 - Present</span>
+              </div>
+              <div class="role-title">Engineering Lead - Dashboard</div>
+              <div class="skill-badges">
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">Next.js</span>
+                <span class="skill-badge">Go</span>
+                <span class="skill-badge">Micro-Frontends</span>
+                <span class="skill-badge">Webpack</span>
+                <span class="skill-badge">System Design</span>
+              </div>
+            </div>
+            <ul class="achievement-list">
+              <li>Leading the SHIELD dashboard team, taking full responsibility for technical architecture and feature delivery.</li>
+              <li>Successfully implemented **Micro-Frontend architecture** using Webpack Module Federation, enabling parallel releases.</li>
+              <li>Architected and implemented **global timezone support** to provide a seamless experience for international merchants.</li>
+              <li>Established a shared component library with **Storybook**, significantly speeding up development cycles across the team.</li>
+              <li>Driving continuous performance optimizations, resulting in measurable improvements across key user pages.</li>
+            </ul>
+          </div>
+
+          <div class="organization">
+            <div class="org-header">
+              <div class="org-title">
+                <span class="org-name-text">Unacademy</span>
+                <span class="org-date">Mar 2022 - May 2023</span>
+              </div>
+              <div class="role-title">Senior Software Engineer</div>
+              <div class="skill-badges">
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">Next.js</span>
+                <span class="skill-badge">MUI</span>
+                <span class="skill-badge">Learner Experience</span>
+              </div>
+            </div>
+            <ul class="achievement-list">
+              <li>Core contributor to the **Learner Experience (LEX)** platform, impacting millions of active learners.</li>
+              <li>Developed complex features like the **Daily Planner** and high-performance **ePub/PDF viewers**.</li>
+              <li>Optimized platform performance for critical learner touchpoints and profile pages.</li>
+            </ul>
+          </div>
+
+          <div class="organization">
+            <div class="org-header">
+              <div class="org-title">
+                <span class="org-name-text">Snapdeal</span>
+                <span class="org-date">Oct 2016 - Mar 2022</span>
+              </div>
+              <div class="role-title">Lead Engineer</div>
+              <div class="skill-badges">
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">FCM</span>
+                <span class="skill-badge">E-commerce</span>
+              </div>
+            </div>
+            <ul class="achievement-list">
+              <li>Led major growth and engagement projects, including the **Snapdeal Game Zone**.</li>
+              <li>Implemented real-time notification systems using **Firebase Cloud Messaging (FCM)** across web and mobile.</li>
+              <li>Spearheaded the **Checkout Revamp** and the implementation of infinite home feeds for better user retention.</li>
+              <li>Developed SEVAC, an innovative e-commerce voice assistant to enhance customer interaction.</li>
+            </ul>
+          </div>
+
+          <div class="organization">
+            <div class="org-header">
+              <div class="org-title">
+                <span class="org-name-text">Fab.com / PCH</span>
+                <span class="org-date">Aug 2015 - Oct 2016</span>
+              </div>
+              <div class="role-title">Senior Software Engineer</div>
+              <div class="skill-badges">
+                <span class="skill-badge">AngularJS</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">B2B</span>
+                <span class="skill-badge">UI/UX</span>
+              </div>
+            </div>
+            <ul class="achievement-list">
+              <li>Built the **PCH Commerceflo B2B portal** from the ground up using AngularJS and modern JS best practices.</li>
+              <li>Developed the core user interface for Fab.com, one of the leading design-focused e-commerce platforms.</li>
+            </ul>
+          </div>
+
+          <div class="organization">
+            <div class="org-header">
+              <div class="org-title">
+                <span class="org-name-text">MAQ Software</span>
+                <span class="org-date">July 2012 - Aug 2015</span>
+              </div>
+              <div class="role-title">Software Engineer</div>
+              <div class="skill-badges">
+                <span class="skill-badge">C#</span>
+                <span class="skill-badge">WCF</span>
+                <span class="skill-badge">SQL Server</span>
+                <span class="skill-badge">TypeScript</span>
+              </div>
+            </div>
+            <ul class="achievement-list">
+              <li>Developed and implemented complex Web Service APIs using **WCF** for Microsoft Partner Network.</li>
+              <li>Earned multiple **Spot Awards** for architectural contributions and for building automated developer tools.</li>
+              <li>Proactively mentored junior developers and standardized project structures from scratch.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="awards" class="content">
+          <h3>Awards & Recognition</h3>
+          <ul>
+            <li>Won <strong>Snapathon 2020</strong> (Snapdeal Hackathon)</li>
+            <li><strong>Rockstar Award</strong> @ Snapdeal (2018)</li>
+            <li>Multiple <strong>Spot Awards</strong> @ MAQ Software (2014-2015)</li>
+            <li><strong>MCSA</strong> Certified (Microsoft Certified Solution Associate)</li>
+            <li>97.74 Percentile in <strong>GATE</strong></li>
+            <li>Second Rank in M.Tech Dept @ IIITA</li>
+          </ul>
+          
+          <h4>Publications</h4>
+          <ul>
+            <li><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-32129-0_46" target="_blank">SMART Test Bed for Humanoid Robots</a></li>
+            <li><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-32129-0_36" target="_blank">Cloud Based Robot Localization</a></li>
+          </ul>
+
+          <h4>Connect</h4>
+          <p>
+            LinkedIn: <a href="https://www.linkedin.com/in/jpjitendrapal/" target="_blank">jpjitendrapal</a><br>
+            Blog: <a href="http://techprogrammings.blogspot.com/" target="_blank">techprogrammings</a>
+          </p>
+        </section>
+      </main>
+    </div>
     <footer></footer>
     <script src="./src/js/index.js"></script>
   </body>
