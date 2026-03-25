@@ -53,7 +53,7 @@
 
   // Dynamic Experience Calculation
   function updateExperience() {
-    const joinDate = new Date('2012-07-16');
+    const joinDate = new Date('2011-07-16');
     const today = new Date();
     
     let years = today.getFullYear() - joinDate.getFullYear();
